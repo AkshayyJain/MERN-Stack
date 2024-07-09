@@ -1,0 +1,3 @@
+Steps to start frontend:
+1. go inside the ./frontend directory.
+2. run ```npm start```, this will start frontend.
