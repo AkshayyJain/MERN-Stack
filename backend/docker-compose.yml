@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  mongo:
+    image: mongo:3.6
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: mern_db
+
+volumes:
+  mongodb_data:
